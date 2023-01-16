@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+  margin: 100px;
+  background-color: rgb(67, 225, 67);
+}
+.btn__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+}
+.btn__container button{
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        font-weight: bold;
+}
+header{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-size: 50px;
+        font-weight: bold;
+}
